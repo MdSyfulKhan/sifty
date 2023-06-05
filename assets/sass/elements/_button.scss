@@ -1,0 +1,10 @@
+.cs_btn.cs_style1{
+  padding: 11.5px 25px;
+  border: 1px solid $accent;
+}
+
+@media only screen and (max-width:991px){
+  .cs_btn.cs_style1{
+    padding: 8px 15px;
+  }
+}

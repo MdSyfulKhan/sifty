@@ -1,0 +1,45 @@
+.cs_contact_form.cs_style1 {
+  input,
+  textarea,
+  select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #5c5c5c;
+    box-shadow: none;
+    color: white;
+    border-radius: 0;
+    &:focus {
+      border-bottom: 1px solid $white;
+    }
+  }
+  select option {
+    &:nth-child(1),
+    &:nth-of-type(2),
+    &:nth-child(3),
+    &:nth-child(4) {
+      background-color: #0A192F;
+    }
+  }
+  textarea{
+    min-height: 150px;
+    max-height: 300px;
+  }
+}
+
+.cs_comments_form.cs_style1{
+  input,textarea{
+    margin-bottom: 24px;
+    background: #172a46;
+    box-shadow: none;
+    border-color: #555555;
+    outline: none;
+    color: $white;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  textarea{
+    min-height: 125px;
+    max-height: 200px;
+  }
+}

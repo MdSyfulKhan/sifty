@@ -1,0 +1,43 @@
+.cs_iconbox.cs_style1{
+  padding: 50px 45px;
+  background: rgba(94, 44, 237, 0.1);
+  .cs_iconbox_title{
+    margin-bottom: 13.5px;
+  }
+}
+.cs_iconbox.cs_style1.cs_type2{
+  padding: 50px 15px;
+}
+
+.cs_iconbox.cs_style1.cs_type3{
+  .cs_iconbox_icon{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+    img{
+      max-height: 50px;
+      max-width: 50px;
+    }
+    &::before{
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      border-radius: 15px;
+      background-color: rgba(94, 44, 237, 0.1);
+    }
+  }
+}
+
+
+.cs_iconbox_wrapper{
+  margin: auto;
+  max-width: 976px;
+  text-align: center;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(5,1fr);
+}

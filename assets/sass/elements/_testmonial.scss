@@ -1,0 +1,46 @@
+.cs_testmonial.cs_style1 {
+  background-color: rgba(94, 44, 237, 0.1);
+  .cs_testmonial_profile_photobox img {
+    height: 100%;
+    width: 100%;
+    max-height: 80px;
+    max-width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+}
+
+.cs_testmonial.cs_style2 {
+  .cs_testmonial_info {
+    padding: 50px 60px;
+    position: relative;
+    box-shadow: 0px 15px 25px rgba($accent, 0.1);
+    border-radius: 10px;
+  }
+  .cs_testmonial_info .cs_quote {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+
+.swipe-arrow.cs_style1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  & > div {
+    height: 40px;
+    width: 40px;
+    background: $accent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover i {
+      transition: all 0.3s ease-in-out;
+      color: $white;
+    }
+  }
+}

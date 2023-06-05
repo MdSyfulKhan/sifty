@@ -1,0 +1,35 @@
+.cs_counter_container_1{
+  width: 100%;
+  max-width: 1082px;
+  padding: 50px;
+  margin-top: -186px;
+}
+
+.cs_funfact.cs_style1{
+  text-align: center;
+}
+
+.cs_funfact_iconbox_wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  padding: 0 100px ;
+  padding-top: 35px;
+  border-top: 1px solid $accent;
+}
+
+.cs_funfact_iconbox.cs_style1{
+  .cs_funfact_iconbox_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cs_funfact_iconbox_title{
+    margin-top: 10px;
+    line-height: 100%;
+  }
+}
+
+@media only screen and (max-width:991px) {
+
+}

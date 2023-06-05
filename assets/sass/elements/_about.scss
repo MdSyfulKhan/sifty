@@ -1,0 +1,45 @@
+.cs_about.cs_style1 {
+  .cs_about_subtitle {
+    padding-left: 30px;
+  }
+  .cs_bullet_list {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      min-width: 50%;
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+      i {
+        font-size: 14px;
+        color: $white;
+        background-color: $accent;
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.cs_subtitle_shape_1 {
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 2px;
+    background-color: $accent;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+}
+
+.cs_about_4.cs_bg_2 {
+  background-color: rgba(94, 44, 237, 0.1);
+}

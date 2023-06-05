@@ -1,0 +1,37 @@
+.cs_breadcrumb.cs_style1{  
+  .cs_breadcrumb_info{
+    position: relative;
+    z-index: 9;
+  }
+  .cs_breadcrumb_list li{
+    padding: 0 10px;
+    position: relative;
+    &::after{
+      position: absolute;
+      content: "";
+      height: calc(100% - 30%);
+      width: 2px;
+      background: #888888;
+      top: 50%;
+      transform: translateY(-50%) rotate(25deg);
+      right: 0;
+    }
+  }
+
+  .cs_breadcrumb_list li a{
+    color: rgba($white, 0.5);
+    text-transform: uppercase;
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .cs_breadcrumb_list li:last-child{
+    a{
+      color: $white;
+    }
+    &::after{
+      display: none;
+    }
+  }
+}

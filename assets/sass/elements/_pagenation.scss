@@ -1,0 +1,25 @@
+.cs_pagenation.cs_style1 {
+  a {
+    padding: 10px 25px;
+    border: 1px solid #0C2E4E;
+    border-radius: 3px;
+    display: inline-block;
+    color: $white;
+    margin-right: 15px;
+    &:hover{
+      background-color: rgba($accent, 0.3);
+    }
+    &.active{
+      border: 1px solid $accent;
+    }
+    &:last-child{
+      background-color: $accent;
+      border: 1px solid $accent;
+      margin: 0;
+      &:hover{
+        background-color: rgba($accent, 0.3);
+        color: $white;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.cs_video_block.cs_style1 {
+  height: 462px;
+  width: 100%;
+  position: relative;
+  .cs_video_block_img {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+  }
+  .cs_play.cs_style1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
